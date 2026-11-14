@@ -9,7 +9,7 @@ python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\
 pip install -r requirements.txt
 streamlit run app.py
 ```
-Opens at http://localhost:8501. The six CSV files are in `data/`.
+Opens at https://analysis-zxqhjtcddaxow5egp82h7h.streamlit.app/. The six CSV files are in `data/`.
 
 ## Regenerate the analytics (about one minute)
 ```
