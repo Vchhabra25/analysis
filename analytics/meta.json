@@ -1,0 +1,193 @@
+{
+ "generated": "2026-11-14T08:43:19",
+ "config": {
+  "IPL": {
+   "min_hp": 40,
+   "min_inn": 8,
+   "min_base": 100
+  },
+  "T20I": {
+   "min_hp": 40,
+   "min_inn": 8,
+   "min_base": 100
+  },
+  "Emerging": {
+   "min_hp": 10,
+   "min_inn": 2,
+   "min_base": 30
+  }
+ },
+ "scopes": {
+  "IPL": {
+   "exclusions": {
+    "matches_with_ball_data": 367,
+    "usable": 353,
+    "dls": 6,
+    "no_result": 4,
+    "inn1_incomplete": 3,
+    "missing_inn2": 1,
+    "tied_kept": 2
+   },
+   "target_check": {
+    "matches_checked": 351,
+    "target_vs_winner_agreement": 1.0
+   },
+   "lam_mean": 0.015343226870412284,
+   "thresholds": {
+    "bat": [
+     0.662844841525835,
+     0.4400445892731181
+    ],
+    "bowl": [
+     0.6754052218842891,
+     0.41977565581528176
+    ]
+   },
+   "model": {
+    "bat": {
+     "mu": [
+      0.06514755649187765,
+      0.03882236451418901
+     ],
+     "cov": [
+      [
+       0.005042318557766717,
+       0.005042308557766717
+      ],
+      [
+       0.005042308557766717,
+       0.005042308557766717
+      ]
+     ],
+     "tau2_skill": 0.005042308557766717,
+     "tau2_pressure": 1e-08,
+     "mu_skill": 0.03882236451418901,
+     "pressure_shift": 0.026325191977688633,
+     "reliability_baseline": 0.15603943640822038,
+     "reliability_pressure_shift": 6.26753177177177e-08,
+     "k": 94,
+     "floor": 10.269577322250212
+    },
+    "bowl": {
+     "mu": [
+      0.0017609453786212696,
+      0.013342740552211371
+     ],
+     "cov": [
+      [
+       0.00904023482226421,
+       0.00904022482226421
+      ],
+      [
+       0.00904022482226421,
+       0.00904022482226421
+      ]
+     ],
+     "tau2_skill": 0.00904022482226421,
+     "tau2_pressure": 1e-08,
+     "mu_skill": 0.013342740552211371,
+     "pressure_shift": -0.011581795173590101,
+     "reliability_baseline": 0.2777421056864119,
+     "reliability_pressure_shift": 8.797344694472108e-08,
+     "k": 93,
+     "floor": 8.372075564320024
+    }
+   },
+   "deliveries": 85319,
+   "matches": 353
+  },
+  "Emerging": {
+   "exclusions": {
+    "matches_with_ball_data": 30,
+    "usable": 30,
+    "tied_kept": 0
+   },
+   "note": "IPL models, thresholds and priors; separate prospect ranking",
+   "deliveries": 6973,
+   "matches": 30,
+   "players_ranked": {
+    "batting": 12,
+    "bowling": 29
+   }
+  },
+  "T20I": {
+   "exclusions": {
+    "matches_with_ball_data": 470,
+    "usable": 426,
+    "dls": 23,
+    "no_result": 17,
+    "inn1_incomplete": 2,
+    "inn2_incomplete": 1,
+    "missing_inn2": 1,
+    "tied_kept": 2
+   },
+   "target_check": {
+    "matches_checked": 424,
+    "target_vs_winner_agreement": 1.0
+   },
+   "lam_mean": 0.014357116328584238,
+   "thresholds": {
+    "bat": [
+     0.6504248205628098,
+     0.43495167880532937
+    ],
+    "bowl": [
+     0.677922909970724,
+     0.4465310951234801
+    ]
+   },
+   "model": {
+    "bat": {
+     "mu": [
+      0.12185611776117772,
+      0.05246992510747713
+     ],
+     "cov": [
+      [
+       0.01388611070539554,
+       0.01388610070539554
+      ],
+      [
+       0.01388610070539554,
+       0.01388610070539554
+      ]
+     ],
+     "tau2_skill": 0.01388610070539554,
+     "tau2_pressure": 1e-08,
+     "mu_skill": 0.05246992510747713,
+     "pressure_shift": 0.06938619265370059,
+     "reliability_baseline": 0.2996968305187321,
+     "reliability_pressure_shift": 5.9060612619915625e-08,
+     "k": 122,
+     "floor": 8.708592853642562
+    },
+    "bowl": {
+     "mu": [
+      -0.02277694645055441,
+      0.01568549783429676
+     ],
+     "cov": [
+      [
+       0.008050742228571299,
+       0.008050732228571299
+      ],
+      [
+       0.008050732228571299,
+       0.008050732228571299
+      ]
+     ],
+     "tau2_skill": 0.008050732228571299,
+     "tau2_pressure": 1e-08,
+     "mu_skill": 0.01568549783429676,
+     "pressure_shift": -0.03846244428485117,
+     "reliability_baseline": 0.21655144328014944,
+     "reliability_pressure_shift": 7.011529865601222e-08,
+     "k": 130,
+     "floor": 7.717676624833786
+    }
+   },
+   "deliveries": 101044,
+   "matches": 426
+  }
+ }
+}

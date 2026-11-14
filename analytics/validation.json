@@ -1,0 +1,1184 @@
+{
+ "IPL": {
+  "wp": {
+   "oof": {
+    "1": {
+     "balls": 43895,
+     "auc": 0.6899701769734077,
+     "logloss": 0.6352750547562817,
+     "baseline_logloss": 0.6922769334287315,
+     "brier": 0.22246043550429662
+    },
+    "2": {
+     "balls": 40920,
+     "auc": 0.8899371542983064,
+     "logloss": 0.4160866758679885,
+     "baseline_logloss": 0.6931342616076547,
+     "brier": 0.1345660137939496
+    }
+   },
+   "in_sample": {
+    "1": {
+     "balls": 43895,
+     "auc": 0.6968068764468301,
+     "logloss": 0.6302601689431645,
+     "baseline_logloss": 0.6922769334287315,
+     "brier": 0.22038389360065228
+    },
+    "2": {
+     "balls": 40920,
+     "auc": 0.892122506153739,
+     "logloss": 0.4109432675407759,
+     "baseline_logloss": 0.6931342616076547,
+     "brier": 0.1334697515242482
+    }
+   },
+   "temporal": {
+    "1": {
+     "balls": 17253,
+     "auc": 0.7122000299019329,
+     "logloss": 0.6804053118980937,
+     "baseline_logloss": 0.6815986733214499,
+     "brier": 0.23919513099599163,
+     "train_matches": 213,
+     "test_matches": 140
+    },
+    "2": {
+     "balls": 15914,
+     "auc": 0.9223465018218111,
+     "logloss": 0.389084728989948,
+     "baseline_logloss": 0.6860631362459854,
+     "brier": 0.12546720494107283,
+     "train_matches": 213,
+     "test_matches": 140
+    }
+   },
+   "calibration": [
+    {
+     "innings": 1,
+     "predicted": 0.179,
+     "observed": 0.146,
+     "balls": 4390
+    },
+    {
+     "innings": 1,
+     "predicted": 0.292,
+     "observed": 0.322,
+     "balls": 4389
+    },
+    {
+     "innings": 1,
+     "predicted": 0.363,
+     "observed": 0.377,
+     "balls": 4390
+    },
+    {
+     "innings": 1,
+     "predicted": 0.422,
+     "observed": 0.416,
+     "balls": 4390
+    },
+    {
+     "innings": 1,
+     "predicted": 0.467,
+     "observed": 0.481,
+     "balls": 4389
+    },
+    {
+     "innings": 1,
+     "predicted": 0.499,
+     "observed": 0.472,
+     "balls": 4390
+    },
+    {
+     "innings": 1,
+     "predicted": 0.54,
+     "observed": 0.525,
+     "balls": 4388
+    },
+    {
+     "innings": 1,
+     "predicted": 0.589,
+     "observed": 0.646,
+     "balls": 4390
+    },
+    {
+     "innings": 1,
+     "predicted": 0.653,
+     "observed": 0.698,
+     "balls": 4389
+    },
+    {
+     "innings": 1,
+     "predicted": 0.787,
+     "observed": 0.708,
+     "balls": 4390
+    },
+    {
+     "innings": 2,
+     "predicted": 0.01,
+     "observed": 0.007,
+     "balls": 4092
+    },
+    {
+     "innings": 2,
+     "predicted": 0.072,
+     "observed": 0.065,
+     "balls": 4092
+    },
+    {
+     "innings": 2,
+     "predicted": 0.171,
+     "observed": 0.189,
+     "balls": 4092
+    },
+    {
+     "innings": 2,
+     "predicted": 0.299,
+     "observed": 0.294,
+     "balls": 4092
+    },
+    {
+     "innings": 2,
+     "predicted": 0.433,
+     "observed": 0.438,
+     "balls": 4092
+    },
+    {
+     "innings": 2,
+     "predicted": 0.579,
+     "observed": 0.559,
+     "balls": 4092
+    },
+    {
+     "innings": 2,
+     "predicted": 0.718,
+     "observed": 0.747,
+     "balls": 4094
+    },
+    {
+     "innings": 2,
+     "predicted": 0.833,
+     "observed": 0.841,
+     "balls": 4090
+    },
+    {
+     "innings": 2,
+     "predicted": 0.923,
+     "observed": 0.917,
+     "balls": 4092
+    },
+    {
+     "innings": 2,
+     "predicted": 0.983,
+     "observed": 0.967,
+     "balls": 4092
+    }
+   ],
+   "value_means": [
+    {
+     "innings": 1,
+     "phase": "Death",
+     "bat": -0.0623,
+     "bowl": -0.0268
+    },
+    {
+     "innings": 1,
+     "phase": "Middle",
+     "bat": -0.0571,
+     "bowl": 0.0098
+    },
+    {
+     "innings": 1,
+     "phase": "Powerplay",
+     "bat": -0.0841,
+     "bowl": 0.0255
+    },
+    {
+     "innings": 2,
+     "phase": "Death",
+     "bat": -0.0619,
+     "bowl": -0.0291
+    },
+    {
+     "innings": 2,
+     "phase": "Middle",
+     "bat": -0.0451,
+     "bowl": -0.0045
+    },
+    {
+     "innings": 2,
+     "phase": "Powerplay",
+     "bat": -0.1139,
+     "bowl": 0.0541
+    }
+   ]
+  },
+  "difficulty": {
+   "by_rrr": [
+    {
+     "rrr": "<6",
+     "balls": 3745,
+     "win_prob": 0.9741,
+     "leverage": 0.4086,
+     "pi_bat": 0.0624,
+     "pi_bowl": 0.3462
+    },
+    {
+     "rrr": "6-8",
+     "balls": 5942,
+     "win_prob": 0.881,
+     "leverage": 0.7759,
+     "pi_bat": 0.1263,
+     "pi_bowl": 0.6496
+    },
+    {
+     "rrr": "8-10",
+     "balls": 10565,
+     "win_prob": 0.6734,
+     "leverage": 1.431,
+     "pi_bat": 0.4908,
+     "pi_bowl": 0.9402
+    },
+    {
+     "rrr": "10-12",
+     "balls": 10161,
+     "win_prob": 0.3614,
+     "leverage": 1.6278,
+     "pi_bat": 0.9338,
+     "pi_bowl": 0.694
+    },
+    {
+     "rrr": "12-15",
+     "balls": 5832,
+     "win_prob": 0.1469,
+     "leverage": 1.2863,
+     "pi_bat": 0.9522,
+     "pi_bowl": 0.334
+    },
+    {
+     "rrr": "15+",
+     "balls": 4786,
+     "win_prob": 0.0383,
+     "leverage": 0.8092,
+     "pi_bat": 0.627,
+     "pi_bowl": 0.1822
+    }
+   ],
+   "by_over": [
+    {
+     "innings": "Batting first",
+     "overid": "1-6",
+     "balls": 13256,
+     "leverage": 0.9805,
+     "pi_bat": 0.5107,
+     "pi_bowl": 0.4698
+    },
+    {
+     "innings": "Batting first",
+     "overid": "7-12",
+     "balls": 13143,
+     "leverage": 0.7553,
+     "pi_bat": 0.3918,
+     "pi_bowl": 0.3635
+    },
+    {
+     "innings": "Batting first",
+     "overid": "13-16",
+     "balls": 8878,
+     "leverage": 0.6715,
+     "pi_bat": 0.3467,
+     "pi_bowl": 0.3248
+    },
+    {
+     "innings": "Batting first",
+     "overid": "17-18",
+     "balls": 4451,
+     "leverage": 0.7997,
+     "pi_bat": 0.4168,
+     "pi_bowl": 0.383
+    },
+    {
+     "innings": "Batting first",
+     "overid": "19-20",
+     "balls": 4422,
+     "leverage": 0.8292,
+     "pi_bat": 0.4162,
+     "pi_bowl": 0.413
+    },
+    {
+     "innings": "Chasing",
+     "overid": "1-6",
+     "balls": 13236,
+     "leverage": 1.0359,
+     "pi_bat": 0.5025,
+     "pi_bowl": 0.5334
+    },
+    {
+     "innings": "Chasing",
+     "overid": "7-12",
+     "balls": 12991,
+     "leverage": 1.0342,
+     "pi_bat": 0.499,
+     "pi_bowl": 0.5351
+    },
+    {
+     "innings": "Chasing",
+     "overid": "13-16",
+     "balls": 8454,
+     "leverage": 1.1691,
+     "pi_bat": 0.5801,
+     "pi_bowl": 0.589
+    },
+    {
+     "innings": "Chasing",
+     "overid": "17-18",
+     "balls": 3806,
+     "leverage": 1.5347,
+     "pi_bat": 0.7678,
+     "pi_bowl": 0.7669
+    },
+    {
+     "innings": "Chasing",
+     "overid": "19-20",
+     "balls": 2682,
+     "leverage": 2.3622,
+     "pi_bat": 1.2248,
+     "pi_bowl": 1.1374
+    }
+   ],
+   "tag_lift": [
+    {
+     "situation": "Death overs (17-20)",
+     "balls": 15361,
+     "high_pressure_share": 0.18520929626977412,
+     "share_elsewhere": 0.20349352468624032
+    },
+    {
+     "situation": "Chasing",
+     "balls": 41169,
+     "high_pressure_share": 0.3644732687216109,
+     "share_elsewhere": 0.047021517553793885
+    },
+    {
+     "situation": "Chase needing 12+ per over",
+     "balls": 11170,
+     "high_pressure_share": 0.40331244404655325,
+     "share_elsewhere": 0.16960444510377753
+    },
+    {
+     "situation": "5+ wickets down",
+     "balls": 15741,
+     "high_pressure_share": 0.22717743472460453,
+     "share_elsewhere": 0.1940987093621547
+    },
+    {
+     "situation": "Close finish (over 16+, |A|<1)",
+     "balls": 2367,
+     "high_pressure_share": 0.7828474862695395,
+     "share_elsewhere": 0.18357604397723984
+    }
+   ],
+   "overall_hp_share": 0.20020159636188892
+  },
+  "hp_vs_ordinary": {
+   "table": [
+    {
+     "role": "Batting",
+     "group": "High pressure",
+     "balls": 16370,
+     "runs_per_ball": 1.491,
+     "dot_pct": 35.779,
+     "boundary_pct": 21.002,
+     "wicket_pct": 5.773,
+     "value_per_100": -28.133
+    },
+    {
+     "role": "Batting",
+     "group": "Quietest half",
+     "balls": 40924,
+     "runs_per_ball": 1.507,
+     "dot_pct": 33.298,
+     "boundary_pct": 20.619,
+     "wicket_pct": 5.168,
+     "value_per_100": 4.3
+    },
+    {
+     "role": "Batting",
+     "group": "All below threshold",
+     "balls": 65478,
+     "runs_per_ball": 1.465,
+     "dot_pct": 35.291,
+     "boundary_pct": 20.219,
+     "wicket_pct": 5.113,
+     "value_per_100": -1.63
+    },
+    {
+     "role": "Bowling",
+     "group": "High pressure",
+     "balls": 17064,
+     "runs_per_ball": 1.469,
+     "dot_pct": 33.427,
+     "boundary_pct": 19.896,
+     "wicket_pct": 4.659,
+     "value_per_100": 25.73
+    },
+    {
+     "role": "Bowling",
+     "group": "Quietest half",
+     "balls": 42660,
+     "runs_per_ball": 1.434,
+     "dot_pct": 33.657,
+     "boundary_pct": 18.561,
+     "wicket_pct": 5.014,
+     "value_per_100": -10.199
+    },
+    {
+     "role": "Bowling",
+     "group": "All below threshold",
+     "balls": 68255,
+     "runs_per_ball": 1.46,
+     "dot_pct": 33.841,
+     "boundary_pct": 19.459,
+     "wicket_pct": 4.804,
+     "value_per_100": -5.337
+    }
+   ]
+  },
+  "gap_heterogeneity": {
+   "batting": {
+    "players": 94,
+    "Q": 81.3342187635073,
+    "df": 93,
+    "p_value": 0.8008255233226834,
+    "share_abs_z_gt_1.96": 0.0425531914893617,
+    "expected_under_null": 0.05,
+    "mean_gap_per_100": -3.3135761509244146
+   },
+   "bowling": {
+    "players": 93,
+    "Q": 76.14218055441022,
+    "df": 92,
+    "p_value": 0.8837593021745842,
+    "share_abs_z_gt_1.96": 0.021505376344086023,
+    "expected_under_null": 0.05,
+    "mean_gap_per_100": 0.11953901235078107
+   }
+  },
+  "sensitivity": [
+   {
+    "role": "Batting",
+    "variant": "Top 30% threshold",
+    "players": 105,
+    "spearman_vs_main": 0.9850449734494094,
+    "top10_overlap": 9
+   },
+   {
+    "role": "Batting",
+    "variant": "Main: top 20%",
+    "players": 94,
+    "spearman_vs_main": 1.0,
+    "top10_overlap": 10
+   },
+   {
+    "role": "Batting",
+    "variant": "Top 10% threshold",
+    "players": 63,
+    "spearman_vs_main": 0.9837749615975423,
+    "top10_overlap": 6
+   },
+   {
+    "role": "Batting",
+    "variant": "Min 30 pressure balls",
+    "players": 95,
+    "spearman_vs_main": 0.999985550698985,
+    "top10_overlap": 10
+   },
+   {
+    "role": "Batting",
+    "variant": "Min 60 pressure balls",
+    "players": 85,
+    "spearman_vs_main": 0.9992964627711549,
+    "top10_overlap": 10
+   },
+   {
+    "role": "Bowling",
+    "variant": "Top 30% threshold",
+    "players": 111,
+    "spearman_vs_main": 0.9908388290412103,
+    "top10_overlap": 9
+   },
+   {
+    "role": "Bowling",
+    "variant": "Main: top 20%",
+    "players": 93,
+    "spearman_vs_main": 0.9999999999999999,
+    "top10_overlap": 10
+   },
+   {
+    "role": "Bowling",
+    "variant": "Top 10% threshold",
+    "players": 71,
+    "spearman_vs_main": 0.9906438631790743,
+    "top10_overlap": 9
+   },
+   {
+    "role": "Bowling",
+    "variant": "Min 30 pressure balls",
+    "players": 98,
+    "spearman_vs_main": 0.9996120676792692,
+    "top10_overlap": 10
+   },
+   {
+    "role": "Bowling",
+    "variant": "Min 60 pressure balls",
+    "players": 88,
+    "spearman_vs_main": 0.9996829981332115,
+    "top10_overlap": 10
+   }
+  ],
+  "stability": {
+   "bat": {
+    "random_split_post_spearman": 0.2541336230297784,
+    "random_split_raw_spearman": 0.08087534099407753,
+    "random_split_top10_overlap": 3.1,
+    "splits_used": 40,
+    "season_split_post_spearman": 0.21584633853541413,
+    "season_split_raw_spearman": 0.19884753901560623,
+    "season_split_top10_overlap": 2,
+    "season_split_players": 50,
+    "bootstrap_top10_freq": {
+     "8101": 0.4066666666666667,
+     "25213": 0.2866666666666667,
+     "6819": 0.6666666666666666,
+     "6281": 0.4,
+     "1699": 0.48,
+     "3647": 0.6866666666666666,
+     "3125": 0.4266666666666667,
+     "25669": 0.38,
+     "50284": 0.58,
+     "535": 0.12,
+     "4260": 0.6933333333333334,
+     "4736": 0.14,
+     "143": 0.6333333333333333,
+     "2367": 0.3333333333333333,
+     "8654": 0.18666666666666668,
+     "5553": 0.4066666666666667,
+     "2756": 0.26666666666666666,
+     "7216": 0.2733333333333333,
+     "23450": 0.32,
+     "1205": 0.02,
+     "2258": 0.03333333333333333,
+     "4007": 0.30666666666666664,
+     "88": 0.05333333333333334,
+     "4722": 0.10666666666666667,
+     "4703": 0.02666666666666667,
+     "4708": 0.18666666666666668,
+     "781": 0.006666666666666667,
+     "2416": 0.02,
+     "1077": 0.04666666666666667,
+     "5039": 0.05333333333333334,
+     "26906": 0.16,
+     "6272": 0.08,
+     "6396": 0.13333333333333333,
+     "5939": 0.08666666666666667,
+     "2639": 0.06666666666666667,
+     "8238": 0.02666666666666667,
+     "47": 0.06666666666666667,
+     "813": 0.16666666666666666,
+     "1758": 0.05333333333333334,
+     "1440": 0.013333333333333334,
+     "4117": 0.04,
+     "953": 0.04666666666666667,
+     "4823": 0.006666666666666667,
+     "3782": 0.02,
+     "992": 0.06666666666666667,
+     "45749": 0.013333333333333334,
+     "4409": 0.02,
+     "6931": 0.04,
+     "126": 0.02666666666666667,
+     "7897": 0.04666666666666667,
+     "6288": 0.03333333333333333,
+     "6423": 0.02,
+     "4847": 0.006666666666666667,
+     "1318": 0.006666666666666667,
+     "818": 0.03333333333333333,
+     "7544": 0.013333333333333334,
+     "930": 0.02,
+     "37052": 0.013333333333333334,
+     "4391": 0.013333333333333334,
+     "167": 0.006666666666666667,
+     "2876": 0.04666666666666667,
+     "109": 0.006666666666666667,
+     "142": 0.006666666666666667,
+     "20005": 0.006666666666666667,
+     "838": 0.006666666666666667,
+     "4821": 0.013333333333333334,
+     "2003": 0.006666666666666667,
+     "169": 0.006666666666666667,
+     "6314": 0.006666666666666667
+    },
+    "bootstrap_reps": 150
+   },
+   "bowl": {
+    "random_split_post_spearman": 0.30325676697147375,
+    "random_split_raw_spearman": 0.03877798109848426,
+    "random_split_top10_overlap": 2.625,
+    "splits_used": 40,
+    "season_split_post_spearman": 0.3868291418200675,
+    "season_split_raw_spearman": 0.08251231527093598,
+    "season_split_top10_overlap": 2,
+    "season_split_players": 57,
+    "bootstrap_top10_freq": {
+     "4219": 0.7666666666666667,
+     "2933": 0.4266666666666667,
+     "781": 0.5333333333333333,
+     "6256": 0.35333333333333333,
+     "4722": 0.6466666666666666,
+     "1813": 0.20666666666666667,
+     "5577": 0.4,
+     "830": 0.36666666666666664,
+     "3644": 0.26,
+     "2876": 0.3466666666666667,
+     "23": 0.2866666666666667,
+     "1318": 0.10666666666666667,
+     "2399": 0.06,
+     "1612": 0.32666666666666666,
+     "3628": 0.31333333333333335,
+     "305": 0.14666666666666667,
+     "29888": 0.24,
+     "58134": 0.03333333333333333,
+     "7325": 0.48,
+     "19316": 0.12,
+     "4900": 0.38666666666666666,
+     "6669": 0.1,
+     "8177": 0.08666666666666667,
+     "1596": 0.3466666666666667,
+     "25048": 0.013333333333333334,
+     "3653": 0.10666666666666667,
+     "28": 0.02666666666666667,
+     "4101": 0.11333333333333333,
+     "8661": 0.12666666666666668,
+     "1758": 0.17333333333333334,
+     "161": 0.06666666666666667,
+     "27960": 0.013333333333333334,
+     "4692": 0.09333333333333334,
+     "7920": 0.12666666666666668,
+     "39657": 0.09333333333333334,
+     "4641": 0.13333333333333333,
+     "7312": 0.07333333333333333,
+     "6518": 0.12,
+     "5944": 0.04666666666666667,
+     "2320": 0.23333333333333334,
+     "5034": 0.09333333333333334,
+     "6676": 0.006666666666666667,
+     "2878": 0.06666666666666667,
+     "6806": 0.02666666666666667,
+     "6284": 0.006666666666666667,
+     "6161": 0.07333333333333333,
+     "2417": 0.013333333333333334,
+     "8580": 0.006666666666666667,
+     "838": 0.11333333333333333,
+     "7967": 0.10666666666666667,
+     "360": 0.08666666666666667,
+     "7503": 0.013333333333333334,
+     "32862": 0.04,
+     "3298": 0.04,
+     "4489": 0.04,
+     "4373": 0.08666666666666667,
+     "3330": 0.013333333333333334,
+     "4816": 0.02,
+     "6464": 0.02666666666666667,
+     "5939": 0.006666666666666667,
+     "7250": 0.006666666666666667,
+     "278": 0.03333333333333333,
+     "2261": 0.006666666666666667,
+     "4391": 0.006666666666666667,
+     "2054": 0.013333333333333334,
+     "2334": 0.02,
+     "914": 0.006666666666666667,
+     "7808": 0.006666666666666667,
+     "2985": 0.013333333333333334,
+     "6683": 0.006666666666666667,
+     "27964": 0.02,
+     "1566": 0.013333333333333334,
+     "7545": 0.006666666666666667,
+     "5940": 0.006666666666666667,
+     "403": 0.013333333333333334,
+     "295": 0.006666666666666667,
+     "1219": 0.013333333333333334,
+     "58246": 0.006666666666666667,
+     "5041": 0.006666666666666667
+    },
+    "bootstrap_reps": 150
+   }
+  }
+ },
+ "T20I": {
+  "wp": {
+   "oof": {
+    "1": {
+     "balls": 52668,
+     "auc": 0.6899754207378693,
+     "logloss": 0.6315879847242178,
+     "baseline_logloss": 0.6919450187702204,
+     "brier": 0.22109602354766772
+    },
+    "2": {
+     "balls": 47871,
+     "auc": 0.9066203875841169,
+     "logloss": 0.3810968727734904,
+     "baseline_logloss": 0.6893611288828511,
+     "brier": 0.12339997401861076
+    }
+   },
+   "in_sample": {
+    "1": {
+     "balls": 52668,
+     "auc": 0.6949021091866786,
+     "logloss": 0.6289098704641306,
+     "baseline_logloss": 0.6919450187702204,
+     "brier": 0.21989378001163828
+    },
+    "2": {
+     "balls": 47871,
+     "auc": 0.9084598037511703,
+     "logloss": 0.37679010114382944,
+     "baseline_logloss": 0.6893611288828511,
+     "brier": 0.12221084380638773
+    }
+   },
+   "temporal": {
+    "1": {
+     "balls": 21296,
+     "auc": 0.697005158578525,
+     "logloss": 0.6314522074386278,
+     "baseline_logloss": 0.6930042912904897,
+     "brier": 0.22109786761671804,
+     "train_matches": 253,
+     "test_matches": 173
+    },
+    "2": {
+     "balls": 18979,
+     "auc": 0.9216248005505792,
+     "logloss": 0.35008746671559804,
+     "baseline_logloss": 0.6910078553262278,
+     "brier": 0.11353128985744967,
+     "train_matches": 253,
+     "test_matches": 173
+    }
+   },
+   "calibration": [
+    {
+     "innings": 1,
+     "predicted": 0.217,
+     "observed": 0.206,
+     "balls": 5267
+    },
+    {
+     "innings": 1,
+     "predicted": 0.331,
+     "observed": 0.313,
+     "balls": 5267
+    },
+    {
+     "innings": 1,
+     "predicted": 0.416,
+     "observed": 0.436,
+     "balls": 5268
+    },
+    {
+     "innings": 1,
+     "predicted": 0.474,
+     "observed": 0.484,
+     "balls": 5266
+    },
+    {
+     "innings": 1,
+     "predicted": 0.513,
+     "observed": 0.515,
+     "balls": 5271
+    },
+    {
+     "innings": 1,
+     "predicted": 0.546,
+     "observed": 0.559,
+     "balls": 5262
+    },
+    {
+     "innings": 1,
+     "predicted": 0.584,
+     "observed": 0.622,
+     "balls": 5266
+    },
+    {
+     "innings": 1,
+     "predicted": 0.63,
+     "observed": 0.629,
+     "balls": 5267
+    },
+    {
+     "innings": 1,
+     "predicted": 0.7,
+     "observed": 0.673,
+     "balls": 5267
+    },
+    {
+     "innings": 1,
+     "predicted": 0.831,
+     "observed": 0.809,
+     "balls": 5267
+    },
+    {
+     "innings": 2,
+     "predicted": 0.002,
+     "observed": 0.003,
+     "balls": 4788
+    },
+    {
+     "innings": 2,
+     "predicted": 0.031,
+     "observed": 0.056,
+     "balls": 4787
+    },
+    {
+     "innings": 2,
+     "predicted": 0.101,
+     "observed": 0.106,
+     "balls": 4787
+    },
+    {
+     "innings": 2,
+     "predicted": 0.207,
+     "observed": 0.219,
+     "balls": 4787
+    },
+    {
+     "innings": 2,
+     "predicted": 0.351,
+     "observed": 0.313,
+     "balls": 4789
+    },
+    {
+     "innings": 2,
+     "predicted": 0.496,
+     "observed": 0.482,
+     "balls": 4785
+    },
+    {
+     "innings": 2,
+     "predicted": 0.656,
+     "observed": 0.672,
+     "balls": 4787
+    },
+    {
+     "innings": 2,
+     "predicted": 0.805,
+     "observed": 0.784,
+     "balls": 4787
+    },
+    {
+     "innings": 2,
+     "predicted": 0.924,
+     "observed": 0.932,
+     "balls": 4787
+    },
+    {
+     "innings": 2,
+     "predicted": 0.988,
+     "observed": 0.999,
+     "balls": 4787
+    }
+   ],
+   "value_means": [
+    {
+     "innings": 1,
+     "phase": "Death",
+     "bat": -0.0803,
+     "bowl": -0.0009
+    },
+    {
+     "innings": 1,
+     "phase": "Middle",
+     "bat": -0.0569,
+     "bowl": 0.0126
+    },
+    {
+     "innings": 1,
+     "phase": "Powerplay",
+     "bat": -0.0808,
+     "bowl": 0.028
+    },
+    {
+     "innings": 2,
+     "phase": "Death",
+     "bat": -0.1794,
+     "bowl": 0.1049
+    },
+    {
+     "innings": 2,
+     "phase": "Middle",
+     "bat": -0.1161,
+     "bowl": 0.0689
+    },
+    {
+     "innings": 2,
+     "phase": "Powerplay",
+     "bat": -0.0806,
+     "bowl": 0.0174
+    }
+   ]
+  },
+  "difficulty": {
+   "by_rrr": [
+    {
+     "rrr": "<6",
+     "balls": 6823,
+     "win_prob": 0.9642,
+     "leverage": 0.4367,
+     "pi_bat": 0.0531,
+     "pi_bowl": 0.3836
+    },
+    {
+     "rrr": "6-8",
+     "balls": 9002,
+     "win_prob": 0.7864,
+     "leverage": 1.1993,
+     "pi_bat": 0.2994,
+     "pi_bowl": 0.8999
+    },
+    {
+     "rrr": "8-10",
+     "balls": 12256,
+     "win_prob": 0.4931,
+     "leverage": 1.7168,
+     "pi_bat": 0.8211,
+     "pi_bowl": 0.8957
+    },
+    {
+     "rrr": "10-12",
+     "balls": 8944,
+     "win_prob": 0.2121,
+     "leverage": 1.4989,
+     "pi_bat": 1.0262,
+     "pi_bowl": 0.4726
+    },
+    {
+     "rrr": "12-15",
+     "balls": 5599,
+     "win_prob": 0.061,
+     "leverage": 0.8283,
+     "pi_bat": 0.6971,
+     "pi_bowl": 0.1313
+    },
+    {
+     "rrr": "15+",
+     "balls": 5340,
+     "win_prob": 0.0125,
+     "leverage": 0.424,
+     "pi_bat": 0.3386,
+     "pi_bowl": 0.0854
+    }
+   ],
+   "by_over": [
+    {
+     "innings": "Batting first",
+     "overid": "1-6",
+     "balls": 15945,
+     "leverage": 1.0877,
+     "pi_bat": 0.5218,
+     "pi_bowl": 0.5658
+    },
+    {
+     "innings": "Batting first",
+     "overid": "7-12",
+     "balls": 15833,
+     "leverage": 0.8065,
+     "pi_bat": 0.3894,
+     "pi_bowl": 0.4171
+    },
+    {
+     "innings": "Batting first",
+     "overid": "13-16",
+     "balls": 10547,
+     "leverage": 0.709,
+     "pi_bat": 0.3398,
+     "pi_bowl": 0.3692
+    },
+    {
+     "innings": "Batting first",
+     "overid": "17-18",
+     "balls": 5371,
+     "leverage": 0.7926,
+     "pi_bat": 0.3845,
+     "pi_bowl": 0.4081
+    },
+    {
+     "innings": "Batting first",
+     "overid": "19-20",
+     "balls": 5226,
+     "leverage": 0.7786,
+     "pi_bat": 0.3674,
+     "pi_bowl": 0.4112
+    },
+    {
+     "innings": "Chasing",
+     "overid": "1-6",
+     "balls": 15978,
+     "leverage": 1.0131,
+     "pi_bat": 0.5139,
+     "pi_bowl": 0.4992
+    },
+    {
+     "innings": "Chasing",
+     "overid": "7-12",
+     "balls": 15596,
+     "leverage": 1.0097,
+     "pi_bat": 0.5077,
+     "pi_bowl": 0.502
+    },
+    {
+     "innings": "Chasing",
+     "overid": "13-16",
+     "balls": 9708,
+     "leverage": 1.0988,
+     "pi_bat": 0.5627,
+     "pi_bowl": 0.5361
+    },
+    {
+     "innings": "Chasing",
+     "overid": "17-18",
+     "balls": 4098,
+     "leverage": 1.5267,
+     "pi_bat": 0.7582,
+     "pi_bowl": 0.7685
+    },
+    {
+     "innings": "Chasing",
+     "overid": "19-20",
+     "balls": 2742,
+     "leverage": 2.2865,
+     "pi_bat": 1.2091,
+     "pi_bowl": 1.0774
+    }
+   ],
+   "tag_lift": [
+    {
+     "situation": "Death overs (17-20)",
+     "balls": 17437,
+     "high_pressure_share": 0.14864942363938752,
+     "share_elsewhere": 0.210879471814561
+    },
+    {
+     "situation": "Chasing",
+     "balls": 48122,
+     "high_pressure_share": 0.3511283820290096,
+     "share_elsewhere": 0.06284720910018518
+    },
+    {
+     "situation": "Chase needing 12+ per over",
+     "balls": 11482,
+     "high_pressure_share": 0.217732102421181,
+     "share_elsewhere": 0.19788526383957483
+    },
+    {
+     "situation": "5+ wickets down",
+     "balls": 22927,
+     "high_pressure_share": 0.1795699393727919,
+     "share_elsewhere": 0.2061779126182521
+    },
+    {
+     "situation": "Close finish (over 16+, |A|<1)",
+     "balls": 2448,
+     "high_pressure_share": 0.7965686274509803,
+     "share_elsewhere": 0.18533206215262282
+    }
+   ],
+   "overall_hp_share": 0.20014053283717984
+  },
+  "hp_vs_ordinary": {
+   "table": [
+    {
+     "role": "Batting",
+     "group": "High pressure",
+     "balls": 19470,
+     "runs_per_ball": 1.295,
+     "dot_pct": 39.928,
+     "boundary_pct": 16.862,
+     "wicket_pct": 6.055,
+     "value_per_100": -39.908
+    },
+    {
+     "role": "Batting",
+     "group": "Quietest half",
+     "balls": 48673,
+     "runs_per_ball": 1.415,
+     "dot_pct": 35.412,
+     "boundary_pct": 18.275,
+     "wicket_pct": 5.968,
+     "value_per_100": 1.89
+    },
+    {
+     "role": "Batting",
+     "group": "All below threshold",
+     "balls": 77875,
+     "runs_per_ball": 1.35,
+     "dot_pct": 37.841,
+     "boundary_pct": 17.545,
+     "wicket_pct": 5.75,
+     "value_per_100": -1.624
+    },
+    {
+     "role": "Bowling",
+     "group": "High pressure",
+     "balls": 20210,
+     "runs_per_ball": 1.324,
+     "dot_pct": 36.888,
+     "boundary_pct": 16.729,
+     "wicket_pct": 5.087,
+     "value_per_100": 37.671
+    },
+    {
+     "role": "Bowling",
+     "group": "Quietest half",
+     "balls": 50522,
+     "runs_per_ball": 1.328,
+     "dot_pct": 36.356,
+     "boundary_pct": 16.151,
+     "wicket_pct": 5.718,
+     "value_per_100": -5.919
+    },
+    {
+     "role": "Bowling",
+     "group": "All below threshold",
+     "balls": 80834,
+     "runs_per_ball": 1.342,
+     "dot_pct": 36.627,
+     "boundary_pct": 16.781,
+     "wicket_pct": 5.365,
+     "value_per_100": -5.076
+    }
+   ]
+  },
+  "gap_heterogeneity": {
+   "batting": {
+    "players": 122,
+    "Q": 97.63285275147595,
+    "df": 121,
+    "p_value": 0.9415354342855402,
+    "share_abs_z_gt_1.96": 0.040983606557377046,
+    "expected_under_null": 0.05,
+    "mean_gap_per_100": 2.071632416538766
+   },
+   "bowling": {
+    "players": 130,
+    "Q": 121.82980054057026,
+    "df": 129,
+    "p_value": 0.6602814029139177,
+    "share_abs_z_gt_1.96": 0.046153846153846156,
+    "expected_under_null": 0.05,
+    "mean_gap_per_100": -2.5621434836681254
+   }
+  }
+ }
+}
